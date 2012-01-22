@@ -4,7 +4,7 @@ require File.expand_path('../lib/delayable_km/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Nicholas Firth-McCoy"]
   gem.email         = ["nicholas@2suggestions.com.au"]
-  gem.description   = %q{A minimal wrapper for the KISSmetrics API that can be used with delayed_job}
+  gem.summary       = %q{A minimal wrapper for the KISSmetrics API that can be used with delayed_job}
   gem.homepage      = "https://github.com/nfm/delayable_km"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
